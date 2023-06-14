@@ -39,23 +39,3 @@ char	*ft_strnstr(const char *hay, const char *nee, size_t n)
 	}
 	return (0);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	char	haystack[] = "aaabcabcd";
-	char	needle[] = "b";
-	size_t	n;
-
-	printf("Enter n=");
-	scanf("%zu", &n);
-	printf("\nHaystack is = %s\n", haystack);
-	printf("Needle = %s\n", needle);
-	printf("Returned Value = %s\n", ft_strnstr(haystack, needle, n));
-	printf("Expected Value = %s\n", strnstr(haystack, needle, n));
-
-	if (!strcmp(ft_strnstr(haystack, needle, n), strnstr(haystack, needle, n)))
-		printf("\nSuccess !! Well done !!\n");
-	return(0);
-}
-*/

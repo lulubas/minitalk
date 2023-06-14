@@ -30,28 +30,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = 0;
 	return (str);
 }
-/* Main
-#include<stdio.h>
-char	ft_alphatoindex(unsigned int i, char a)
-{
-	if (ft_isalpha(a))
-		a = i + 48;
-	return (a);
-}
-
-int	ft_isalpha(unsigned char a)
-{
-	if ((a < 'A' || a > 'Z') && (a < 'a' || a > 'z'))
-		return (0);
-	return (1);
-}
-
-int	main(void)
-{
-	char	s[20] = "abc abc";
-	
-	printf("Initial string is: %s\n", s);
-	printf("Returned string is: %s\n", ft_strmapi(s, ft_alphatoindex));
-	free(ft_strmapi(s, ft_alphatoindex));
-}
-*/

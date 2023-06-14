@@ -40,20 +40,3 @@ int	ft_atoi(const char *str)
 	}
 	return (r * n);
 }
-
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	char	str[50];
-	
-	printf("Enter the string to try : ");
-	scanf("%s", str);
-	printf("Returned Value = %d\n", ft_atoi(str));
-	printf("Expected Value = %d\n", atoi(str));
-
-	if (ft_atoi(str) == atoi(str))
-		printf("\nSuccess !! Well done !!\n");
-	return(0);
-}
-*/

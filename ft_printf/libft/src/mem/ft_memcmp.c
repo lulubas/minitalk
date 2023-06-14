@@ -28,20 +28,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	char	src[50] = "aaaaa";
-	char	dst[50] = "aaaaaa";
-	size_t	n;
-
-	printf("Enter n :");
-	scanf("%zu", &n);
-	printf("Source = %s\n", src);
-	printf("Destination = %s\n", dst);
-	printf("Return Value = %d\n", ft_memcmp(src, dst, n));
-	printf("Expected Value = %d\n", memcmp(src, dst, n));
-	return(0);
-}
-*/

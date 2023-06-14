@@ -33,20 +33,3 @@ void	ft_putnbr_fd(int nb, int fd)
 		ft_putnbr_fd(nb / 10, fd);
 	ft_putnbr_fd(nb % 10, fd);
 }
-/* Main
-#include<stdio.h>
-#include <fcntl.h>
-int	main(void)
-{
- 	int fd;
-	int n;
-
-	n = 558665;
-	fd = open("test", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);
-	printf("fd=%d\n Check content of file 'test'\n", fd);
-	if (fd==-1)
-		printf("Error open() number=%d\n", fd);
-	ft_putnbr_fd(n, fd);
-	return (0);
-}
-*/

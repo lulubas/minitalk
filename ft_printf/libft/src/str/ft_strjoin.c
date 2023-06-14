@@ -28,16 +28,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(str, s2, n + 1);
 	return (str);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	char	s1[50] = "hello my name is lulu the bas";
-	char	s2[50] = "that is the destination";
-
-	printf("Prefix string = %s\n", s1);
-	printf("Suffix string = %s\n", s2);
-	printf("New string = %s\n", ft_strjoin(s1, s2));
-	return(0);
-}
-*/

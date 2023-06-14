@@ -100,24 +100,3 @@ char	**ft_split(char const *s, char c)
 	array[word_index] = 0;
 	return (array);
 }
-/* Main
-#include<stdio.h>
-int	main(void)
-{
-	size_t	i;
-	char	str[50] = "Hello this is a test";
-	size_t	word_count;
-	char	**array;
-	char 	c = ' ';
-
-	i = 0;
-	word_count = ft_countwords(str, c);
-	printf("The number of words is : %zu\n", ft_countwords(str, c));
-	array = ft_split (str, c);
-	while (i < word_count)
-	{
-		printf("%s\n", array[i]);
-		i++;
-	}
-	return (0);
-*/

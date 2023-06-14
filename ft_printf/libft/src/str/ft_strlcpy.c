@@ -32,20 +32,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t n)
 	*dst = 0;
 	return (j);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	char	src[50] = "Hello my name is lulu the bas";
-	char	dst[50] = "that is the destination";
-	size_t	n;
-
-	printf("Enter n :");
-	scanf("%zu", &n);
-	printf("Source = %s\n", src);
-	printf("Destination = %s\n", dst);
-	ft_strlcpy(dst, src, n);
-	printf("New destination = %s\n", dst);
-	return(0);
-}
-*/

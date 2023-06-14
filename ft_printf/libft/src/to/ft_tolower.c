@@ -17,17 +17,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	int c;
-	char i;
-
-	printf("Enter an integer :");
-	scanf("%d", &c);
-	printf("Your char is = %c\n", c);
-	i = ft_tolower(c);
-	printf("End Char = %c\n", i);
-}
-*/

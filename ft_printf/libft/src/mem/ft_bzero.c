@@ -23,18 +23,3 @@ void	ft_bzero(void *str, size_t n)
 		n--;
 	}
 }
-/* Main
-#include<stdio.h>
-int	main(void)
-{
-	char	str[50] = "Hello my name is lulu";
-	size_t	n;
-
-	printf("Enter n :");
-	scanf("%zu", &n);
-	printf("String = %s\n", str);
-	ft_bzero(str, n);
-	printf("String = %c\n", *(str+8));
-	return(0);
-}
-*/

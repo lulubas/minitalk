@@ -22,23 +22,3 @@ char	*ft_strchr(const char *str, int c)
 		return (0);
 	return ((char *)str);
 }
-/* Main
-#include <stdio.h>
-char*	ft_strchr(const char *str, int c);
-int	main(void)
-{
-	char	str[50] = "This is a test string to try";
-	char	str_t[50] = "This is a test string to try";
-	int	c;
-	char t;
-
-	printf("The initial string is = %s\n", str);
-	printf("Enter a char :");
-	scanf(" %c", &t);
-	c = t;
-	printf("Your char int equivalent is = %d\n", c);
-	printf("The end result is = %s\n", ft_strchr(str, c));
-	printf("The expected result is = %s\n", strchr(str_t, c));
-	return(0);
-}
-*/

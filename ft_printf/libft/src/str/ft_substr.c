@@ -36,21 +36,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = 0;
 	return (sub);
 }
-/* Main
-#include <stdio.h>
-int	main(void)
-{
-	const char	s[] = "HelloHello";
-	unsigned int	start;
-	size_t	len;
-
-	start = 9;
-	len = 10;
-	printf("The initial string is: %s\n", s);
-	printf("The substring index start is: %d\n", start);
-	printf("The substring max length is: %zu\n", len);
-	printf("\nResult: \n%s\n", ft_substr(s, start, len));
-	free(ft_substr(s, start, len));
-	return(0);
-}
-*/

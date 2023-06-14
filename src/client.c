@@ -46,7 +46,7 @@ void	ft_transmit(int pid, char c)
 		else if (str[i] == '1')
 			kill(pid, SIGUSR2);
 		i++;
-		usleep(100);
+		usleep(150);
 	}
 	free (str);
 }

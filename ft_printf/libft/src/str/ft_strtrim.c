@@ -32,17 +32,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, tmp, n + 1);
 	return (str);
 }
-/* Main
-#include<stdio.h>
-int	main(void)
-{
-	char	s1[50] = "Hello louis \t";
-	char	set[10] = "is \t";
-
-	printf("The initial string is: \n%s\n", s1);
-	printf("The chars to trim are: \n%s\n", set);
-	printf("Result : \n%s\n", ft_strtrim(s1, set));
-	free(ft_strtrim(s1, set));
-	return (0);
-}
-*/

@@ -24,21 +24,3 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
-/* Main
-#include<stdio.h>
-int	main(void)
-{
-	char	str[50] = "Hello my name is lulu";
-	int		c;
-	size_t	n;
-	
-	c = 45;
-	
-	printf("Enter n :");
-	scanf("%zu", &n);
-	printf("String = %s\n", str);
-	ft_memset(str, c, n);
-	printf("String = %s\n", str);
-	return(0);
-}
-*/
